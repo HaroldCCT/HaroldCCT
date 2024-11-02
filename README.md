@@ -1,16 +1,34 @@
-## Hi there 👋
+```php
+<?php
 
-<!--
-**HaroldCCT/HaroldCCT** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+package main
 
-Here are some ideas to get you started:
+import "fmt"
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+type User struct {
+  Name            string
+  Age             int
+  NativeLangauge  string
+  Languages       []string
+  Knowledge       []string
+  Challenge       string
+  OS              []string
+}
+
+func main() {
+  harolddev := User{
+    Name:              "Harold",
+    Age:               22,
+    NativeLangauge:    "ES",
+    Languages:         []string{"Espnañol", "Ingles"},
+    Knowledge:    []string{
+      "Python", "HTML", "CSS", "JavaScript", "Node Js(Learning)", "TypeScript"(Learning), "C++", "GitHub", "C"
+    },
+    OS:  []string{
+      "Windous", "Kali Linux"
+    },
+    Challenge: "I am focused on improving my skills in ethical hacking and expanding my programing knowledge"
+  }
+  fmt.Printf("User Info: %+v\n", harolddev)
+}
+```
