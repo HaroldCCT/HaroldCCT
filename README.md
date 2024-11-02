@@ -1,6 +1,4 @@
 ```php
-<?php
-
 package main
 
 import "fmt"
