@@ -24,7 +24,7 @@ func main() {
     NativeLangauge:    "ES",
     Languages:         []string{"Espnañol", "Ingles"},
     Knowledge:    []string{
-      "Python", "HTML", "CSS", "JavaScript", "Node Js(Learning)", "TypeScript"(Learning), "C++", "GitHub", "C"
+      "Python", "HTML", "CSS", "JavaScript", "Node Js"(Learning), "TypeScript"(Learning), "C++", "GitHub", "C"
     },
     OS:  []string{
       "Windous", "Kali Linux"
