@@ -27,7 +27,7 @@ func main() {
       "Python", "HTML", "CSS", "JavaScript", "Node Js"(Learning), "TypeScript"(Learning), "C++", "GitHub", "C"
     },
     OS:  []string{
-      "Windous", "Kali Linux"
+      "Windows", "Kali Linux"
     },
     Challenge: "I am focused on improving my skills in ethical hacking and expanding my programing knowledge"
   }
